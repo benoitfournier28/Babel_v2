@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* html{
+    font-size: 100%;
+} */
+
+body{
+    background-color: #FDFCDC;
+    font-family: 'Righteous', cursive;
+    max-width: 100%;
+    height: auto;
+}
+
+/* ------------------ Header part---------------- */
+
+header {
+    background: #B62717;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    height: 13vh;
+    color: #FDFCDC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_header {
+
+    position: relative;
+    width: 85%;
+    height: 75%;
+    background: linear-gradient(90deg, rgba(182, 39, 23, 0.275) -1.06%, rgba(135, 34, 23, 0.5) 82.98%), rgba(182, 39, 23, 0.83);
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 49px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.logo_title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 40%;
+    max-height: 70%;
+}
+
+
+
+/* .logo_title:nth-child(1){
+    font-size: 2.2vh;
+    font-size: 1.2vw;
+} */
+
+.img_resize{
+    width: 4.2vw;
+}
+
+.img_dragonball{
+    width: 100%;
+}
+
+.title{
+    font-size: 4vw;
+    margin-left: 5%;
+}
+
+.bar_separate{
+    background: #FDFCDC;
+    width: 4.5%;
+    height: 4%;
+    transform: rotate(125deg);
+    border-radius: 30%;
+}
+
+.navigation {
+    width: 33%;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.8em;
+}
+
+.navigation a{
+    font-size: 3vh;
+    font-size: 2.6vw;
+}
+
+.search {
+    width: 15%;
+    height: 45%;
+    background: #FDFCDC;
+    border-radius: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: rgba(182, 39, 23, 0.45);
+    font-size: 3vh;
+    font-size: 1.5vw;
+}
+
+.search:hover{
+    width: 15%;
+    height: 45%;
+    background: #FDFCDC;
+    border-radius: 32px;
+    align-items: center;
+    justify-content: flex-start;
+    color: #FDFCDC;
+    transition: all 0.5s;
+}
+
+.search i{
+    margin-left: 7%;
+    margin-right: 20%;
+}
+
+/* ------------------End header part---------------- */

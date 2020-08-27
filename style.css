@@ -119,3 +119,35 @@ header {
 }
 
 /* ------------------End header part---------------- */
+/* ------------------Template style ---------------- */
+
+.page_title{
+    margin-top: 3%;
+    margin-left: 5%;
+    font-size: 3vw;
+}
+
+.general_template{
+    margin-left: 8%;
+    margin-top: 2%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.title_img-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin: 2.5%;
+}
+
+.manga_title{
+    text-align: center;
+}
+
+.image{
+    margin-top: 4%;
+    width: 12vw;  
+    height: 30vh;
+}
